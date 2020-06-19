@@ -28,9 +28,28 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-theme.min.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css",
+              "src/styles.scss",
+              "src/scss/fancybox-custom.scss",
+              "src/scss/da-slider.scss",
+              "src/scss/bootstrap-theme-custom.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+              "node_modules/headroom.js/dist/headroom.min.js",
+              "node_modules/headroom.js/dist/jQuery.headroom.js",
+              "node_modules/requirejs/require.js",
+              "node_modules/html5shiv/dist/html5shiv.min.js",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js",
+              "src/js/modernizr-latest.js",
+              "src/js/jquery.cslider.js",
+              "src/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -92,9 +111,28 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap-theme.min.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css",
+              "src/styles.scss",
+              "src/scss/fancybox-custom.scss",
+              "src/scss/da-slider.scss",
+              "src/scss/bootstrap-theme-custom.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+              "node_modules/headroom.js/dist/headroom.min.js",
+              "node_modules/headroom.js/dist/jQuery.headroom.js",
+              "node_modules/requirejs/require.js",
+              "node_modules/html5shiv/dist/html5shiv.min.js",
+              "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js",
+              "src/js/modernizr-latest.js",
+              "src/js/jquery.cslider.js",
+              "src/js/custom.js"
+            ]
           }
         },
         "lint": {
